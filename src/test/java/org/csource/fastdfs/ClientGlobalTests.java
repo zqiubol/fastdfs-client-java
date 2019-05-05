@@ -19,7 +19,7 @@ public class ClientGlobalTests {
     Properties props = new Properties();
     props.put(ClientGlobal.PROP_KEY_TRACKER_SERVERS, "10.0.11.101:22122,10.0.11.102:22122");
     ClientGlobal.initByProperties(props);
-    System.out.println("ClientGlobal.configInfo(): " + ClientGlobal.configInfo());
+    System.out.println("ClientGlobal.configInfo(): " + ClientGlobal.config
 
   }
 
